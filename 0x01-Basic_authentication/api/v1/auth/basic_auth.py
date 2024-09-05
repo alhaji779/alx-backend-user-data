@@ -5,6 +5,8 @@ import re
 import base64
 from typing import Tuple, TypeVar
 from .auth import Auth
+import binascii
+from models.user import User
 
 
 class BasicAuth(Auth):
